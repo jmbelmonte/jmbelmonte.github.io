@@ -57,7 +57,7 @@ const filterArray = array.filter(num => num >= 2);
 console.log('filterArray',filterArray);
 
 const reduceArray = array.reduce((acc,num) => {
-    return acc + num;
+    return acc + num; //1 3 6 10
 }, 0);
 
 console.log('reduceArray', reduceArray);
