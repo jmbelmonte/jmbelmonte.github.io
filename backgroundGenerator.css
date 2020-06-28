@@ -1,0 +1,11 @@
+* {
+    font-size: 14px;    
+}
+
+p {
+    font-weight: 3rem;
+}
+
+body {
+    background: linear-gradient(to right, red, yellow);
+}
