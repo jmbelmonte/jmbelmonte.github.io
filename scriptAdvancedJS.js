@@ -34,3 +34,30 @@ const add5 = (num) => num + 5;
 console.log(compose(add1, add5)(10)) */
 
 //What are the two elements of a pure function?
+
+
+// Advanced Array
+
+const array = [1, 2, 3, 4];
+
+const double = [];
+
+const newArray = array.forEach(num => {
+    double.push(num * 2);
+});
+
+console.log('foreach', double);
+
+const mapArray = array.map(num => num * 2);
+
+console.log('mapArray',mapArray);
+
+const filterArray = array.filter(num => num >= 2);
+
+console.log('filterArray',filterArray);
+
+const reduceArray = array.reduce((acc,num) => {
+    return acc + num;
+}, 0);
+
+console.log('reduceArray', reduceArray);
