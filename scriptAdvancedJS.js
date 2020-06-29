@@ -369,5 +369,6 @@ function checkBasket(basket, lookingFor) {
       return `${lookingFor} is in your basket`
     }
   }
-  return 'that does not exist in your basket'
+  return 'that does not exist in your basket';
 }
+
