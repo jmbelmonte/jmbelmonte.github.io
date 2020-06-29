@@ -2,7 +2,7 @@ var lod = require("lodash");
 
 var array = [1,2,3,4,5];
 
-console.log("Answer: ", lod.without(3));
+console.log("Answer: ", lod.without(array,3));
 
 
 /* const username = prompt("Username?");
@@ -22,12 +22,8 @@ const isUserValid = (username, password) => {
 
 console.log(isUserValid(username, password));
 
-/* if (username === "jm" && password === "123") {
+ if (username === "jm" && password === "123") {
     alert("Welcome to the system!");
 } else {
     alert("Wrong username and password!");
-} */
-
-
-
- */
+}  */
