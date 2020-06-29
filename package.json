@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jmbelmonte/jmbelmonte.github.io/issues"
   },
-  "homepage": "https://github.com/jmbelmonte/jmbelmonte.github.io#readme"
+  "homepage": "https://github.com/jmbelmonte/jmbelmonte.github.io#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }
