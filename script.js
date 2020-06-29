@@ -1,4 +1,11 @@
-const username = prompt("Username?");
+var lod = require("lodash");
+
+var array = [1,2,3,4,5];
+
+console.log("Answer: ", lod.without(3));
+
+
+/* const username = prompt("Username?");
 const password = prompt("Password?");
 
 let greet;
@@ -23,3 +30,4 @@ console.log(isUserValid(username, password));
 
 
 
+ */
