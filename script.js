@@ -4,7 +4,7 @@ var array = [1,2,3,4,5];
 
 console.log("Answer: ", lod.without(array,3));
 
-console.log("Another Answer: ", lod.add(1,1));
+console.log("Another Answer: ", lod.add(1,3));
 
 /* const username = prompt("Username?");
 const password = prompt("Password?");
